@@ -1,0 +1,56 @@
+body {
+color: black;
+background: chocolate;
+margin: 0px;
+font-family: "Libre Bodoni", serif;
+margin-bottom: 70px ;
+}
+
+
+header {
+    border-bottom: solid 3px black;
+    margin: 15px;
+    padding: 10px;
+    font-size: 23px;
+}
+
+.titulo {
+    color: rgb(0, 0, 0);
+background:rgb(202, 144, 70);
+padding-bottom: 30px;
+padding-top: 30px ;
+display: flex;
+justify-content: center;
+}
+
+.number-one {
+margin-right: 5%;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.video {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.videos img {
+    opacity: 1.0;
+    height: 180px;
+}
+
+.videos img:hover {
+    border: 3px solid black;
+}
